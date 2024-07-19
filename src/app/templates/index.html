@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block body %}
+
+<div class="container">
+    <div class= "py-5 text-center ">
+        <h1 class="mb-5">Image Uploader </h1>
+
+        <form action="" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{form.as_p}}
+            <input type="submit" class="btn btn-success mt-3" value="Upload"> 
+
+        </form>
+    </div> 
+    <div class="row">
+        {% for url in urls  %}
+            <div class="col-sm-4">
+                <div class="card m-3" style="width: 18rem;">
+                    <img src="{{url}}" class="card-img-top"  alt="images">
+
+                  </div>
+
+                  <div class="card-footer text-center">
+                    <small class="text-muted "> {{x.date}} </small>
+                  </div>
+
+            </div>
+        
+        {% endfor %}
+
+
+    </div>
+</div>
+
+
+
+
+{% endblock %}
