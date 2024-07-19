@@ -1,6 +1,6 @@
 # Django Image Upload
 
-![Image Uploader Home Page](../image-uploader.png)
+![Image Uploader Home Page](image-uploader.png)
 
 
 
