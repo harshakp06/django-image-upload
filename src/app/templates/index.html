@@ -12,16 +12,16 @@ Home
 
         <form action="" method="post" enctype="multipart/form-data">
             {% csrf_token %}
-            {{form}}
+            {{form.as_p}}
             <input type="submit" class="btn btn-success mt-3" value="Upload"> 
 
         </form>
     </div> 
     <div class="row">
-        {% for x in img  %}
+        {% for url in urls  %}
             <div class="col-sm-4">
                 <div class="card m-3" style="width: 18rem;">
-                    <img src="{{x.photo.url}}" class="card-img-top"  alt="images">
+                    <img src="{{url}}" class="card-img-top"  alt="images">
 
                   </div>
 
