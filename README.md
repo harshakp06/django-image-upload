@@ -3,5 +3,4 @@
 ![Image Uploader Home Page](image-uploader.png)
 
 
-
-Blog Link - https://harshakp06.hashnode.dev/step-by-step-guide-to-building-an-image-uploader-using-aws-s3-and-django
+Blog Link - https://harshakp06.hashnode.dev/step-by-step-guide-to-building-an-image-uploader-using-aws-s3-and-django 
