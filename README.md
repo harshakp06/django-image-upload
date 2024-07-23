@@ -1,8 +1,7 @@
-# Django Image Upload
+# Step-by-Step Guide to Building an Image Uploader Using AWS S3 and Django
 
 ![Image Uploader Home Page](image-uploader.png)
 
 
 
-Image link : https://bucket-name.amazonaws.com/images/251836.jpg?AWSAccessKeyId=AKIAW3MEDAZHWGAEIFKS&Signature=BE1LXes%2BXHlenU8WetH7YZo3xAE%3D&Expires=1721389199
-
+Blog Link - https://harshakp06.hashnode.dev/step-by-step-guide-to-building-an-image-uploader-using-aws-s3-and-django
